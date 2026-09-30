@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Water Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    
+    <div class="tracker">
+        <h1>Water Tracker</h1>
+        <input type="number" id="waterInput" placeholder="Enter water intake">
+        <select id="unitSelect">
+            <option value="ml">ml</option>
+            <option value="oz">floz</option>
+            <option value="l">l</option>
+            <option value="gal">gal</option>
+            <option value="qt">qt</option>
+        </select>
+        <button id="addButton">Add</button>
+    </div>
 </body>
 </html>
