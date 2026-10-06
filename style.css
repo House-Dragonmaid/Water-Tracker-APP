@@ -6,6 +6,21 @@
     width: 500px;
     margin: 50px auto;
 }
+input{
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 html, body {
     margin: 0;
     padding: 0;
